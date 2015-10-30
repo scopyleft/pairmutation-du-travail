@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -40,15 +40,67 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-background="./assets/heroine.jpg">
+				<section>
+					<h3>La Pairmutation du travail</h3>
+				</section>
+				<section>
+					<h3>Ciseaux vs Fosbury</h3>
+				</section>
+				<section>
+					<h3>Phagocytose vs Frugalité</h3>
+				</section>
+				<section>
+					<h3>Carrière vs Chemin</h3>
+				</section>
+				<section>
+					<h3>CP vs Maternelle</h3>
+				</section>
+				<section>
+					<h3>Embauche vs Collaboration</h3>
+				</section>
+				<section>
+					<h3>Esclavage vs Émancipation</h3>
+				</section>
+				<section>
+					<h3>Mortifère vs Vitalisant</h3>
+				</section>
+				<section>
+					<h3>Autonomie et Temps</h3>
+				</section>
+				<section>
+					<h3>35h vs 168h</h3>
+				</section>
+				<section>
+					<h3>Fun vs Efficacité</h3>
+				</section>
+				<section>
+					<h3>Débat vs Jeux</h3>
+				</section>
+				<section>
+					<h3>Scop vs Crowdfunding</h3>
+				</section>
+				<section>
+					<h3>Crise vs Évolution</h3>
+				</section>
+				<section>
+					<h3>Bonheur au travail</h3>
+				</section>
+				<section>
+					<h3>Partage vs Verrouillage</h3>
+				</section>
+				<section>
+					<h3>Certitude vs Épuisement</h3>
+				</section>
+				<section>
+					<h3>Empire vs Commun</h3>
+				</section>
+				<section>
+					<h3>Salarié vs Actionnaire</h3>
 				</section>
 			</div>
-
 		</div>
-
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
-
 		<script>
 
 			// Full list of configuration options available at:
@@ -59,7 +111,11 @@
 				history: true,
 				center: true,
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				shuffle: {
+					keepFirsts: 1
+				},
+	
+				transition: 'none', // none/fade/slide/convex/concave/zoom
 
 				// Optional reveal.js plugins
 				dependencies: [
@@ -68,6 +124,7 @@
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/shuffle/shuffle.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
